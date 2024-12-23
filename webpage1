@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Property Demo #5</title>
+    <script>
+        function VUwindow() {
+           window.open("http://web.facebook.com");//*add link of new window//*
+        }
+    </script>
+</head>
+<body>
+    <h1>Change Property Demo #5</h1>
+    <form name="Dummy" method="" action="">
+    <input type="submit" name="" value="New VU window" onclick = VUwindow()>
+    </form>
+</body>
+</html>
