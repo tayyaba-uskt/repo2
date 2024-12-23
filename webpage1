@@ -5,7 +5,7 @@
     <title>Change Property Demo #5</title>
     <script>
         function VUwindow() {
-           window.open("http://web.facebook.com");//*add link of new window//*
+           window.open("http://web.facebook.com");
         }
     </script>
 </head>
