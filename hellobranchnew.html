@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Property Demo #1</title>
+    <script>
+        function changeStatus() {
+            document.getElementById("statusMessage").innerText = "Mouse has touched the button.";
+        }
+    </script>
+</head>
+<body>
+    <h1>Change Property Demo #1</h1>
+    <form name="Dummy" method="" action="">
+    <input type="submit" name="" value="Change Status" onmouseover="changeStatus()">
+    </form>
+    <p id="statusMessage"></p>
+</body>
+</html>
